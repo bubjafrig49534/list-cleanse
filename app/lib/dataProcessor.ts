@@ -2,6 +2,7 @@ import {
   ContactRecord,
   ValidatedRecord,
   ValidationError,
+  ValidationSuggestion,
   ValidationSummary,
   ColumnMapping,
 } from './types';
@@ -68,7 +69,7 @@ export function processRecords(
   const validatedRecords: ValidatedRecord[] = contactRecords.map((record, index) => {
     const errors: ValidationError[] = [];
     const warnings: ValidationError[] = [];
-    const suggestions = [];
+    const suggestions: ValidationSuggestion[] = [];
 
     // Check if row is completely empty
     const isEmpty =
