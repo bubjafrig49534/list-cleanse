@@ -1,0 +1,21 @@
+Email,First Name,Last Name,Company,Industry
+john.doe@acme.com,John,Doe,Acme Corporation,Technology
+jane@gmail.con,Jane,Smith,Microsoft Corp,Software
+info@testcompany.com,Bob,Johnson,Test Company Inc,Manufacturing
+test@10minutemail.com,Test,User,ABC Ltd,Retail
+sarah.jones@yahoo.com,SARAH,JONES,N/A,Healthcare
+mike@example.com,Mike,T,Example Company,Finance
+admin@company.com,Alice,Williams,Company LLC,Consulting
+robert@guerrillamail.com,Robert,Brown123,XYZ Corporation,Real Estate
+lisa.davis@company.co,Lisa,Davis,Company Incorporated,Education
+test test,asdf,asdf,test,Marketing
+,,,,,
+mark@validcompany.com,Mark,Thompson,Valid Company Inc.,Technology
+email@example.com,J,K,none,Industry
+super@tempmail.com,Super,Long Name That Exceeds The Maximum Field Length Limit Of Two Hundred And Fifty Five Characters Which Is The Salesforce Limit For Text Fields And This Should Trigger A Validation Error Because It Is Way Too Long For The System To Handle Properly,Technology Inc,Tech
+john.doe@acme.com,John,Duplicate,Acme Corporation,Technology
+normal@business.com,Normal,Person,Business Corp.,Professional Services
+sales@marketing.com,Sales,Team,Marketing Agency,Advertising
+contact@gmail.com,Contact,Person,Google,Technology
+rachel@outlook.com,rachel,green,Central Perk Coffee,Food & Beverage
+developer@company.com,Dev,99,Tech Startup,Software

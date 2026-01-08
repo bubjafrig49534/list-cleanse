@@ -1,0 +1,4 @@
+node_modules
+.next
+sample-data.csv
+TEST-SCENARIOS.md
